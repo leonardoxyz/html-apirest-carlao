@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Monitoramento</title>
+        <link rel="icon" type="image/x-icon" href="assets/images.png">
+        <link rel="stylesheet" href="./monitoramento.css" />
+        <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div>
+            <img src="assets/ads.png" alt="" style="height: 60px;">
+            <img src="assets/fatec.png" alt="" style="height: 50px; float: right; margin-top: 10px; margin-right: 10px;">
+            <h1>Monitoramento</h1>
+            <h2>5° AMS</h2>
+        </div>
+        <h1>
+            <div class="filter-container">
+                <input type="text" id="filter" class="filter" placeholder="Pesquisar monitoramento" autofocus />
+            </div>
+        </h1>
+        <div class="container">
+            <ul data-js="monitoramento" class="monitoramento"></ul>
+        </div>
+        <script src="monitoramento.js" type="module"></script>  
+    </body>
+</html>
